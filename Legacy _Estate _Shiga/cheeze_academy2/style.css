@@ -1,0 +1,394 @@
+/* ここから下に記載していく */
+
+/* ここから下に記載していく */
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header */
+.header {
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 245, 174);
+
+}
+
+.nav-list {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+/* header */
+
+/* hero-image */
+
+.hero-image {
+    background-image: url(../img/27900486_l.jpg);
+    background-size: cover;
+        /* 画像のサイズを指定    */
+        width: 100%;
+        /* 横幅のサイズを指定    */
+        height: 800px;
+}
+
+.hero_image_text {
+    font-size: 48px;
+    color: rgb(34, 113, 39);
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.hero_image_text_2 {
+    font-size: 30px;
+    color: rgb(34, 113, 39);
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+/* hero-image */
+
+/* about */
+
+.about{
+    background-image: url(../img/_7350aa6d-a3e8-45df-ba42-f075c6e61a4f.jpeg);
+}
+
+
+
+.profile1 {
+    font-size: 48px;
+    color: rgb(66, 196, 87);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.profile2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.profile4 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.profile5 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+/* about */
+
+/* 3pictures */
+
+.works__eyecatch {
+    display: flex;
+    width: 300px;
+}
+
+/* 3pictures */
+
+/* course */
+
+.course1 {
+    font-size: 24px;
+    margin-top: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.course2 {
+    font-size: 16px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.agri-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.agri {
+    background-color: #fafafa;
+    vertical-align: middle;
+    width: 600px;
+
+}
+
+.agri-text {
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    size: 24px;
+    font-weight: bold;
+}
+
+.agri-text2 {
+    margin-left: 50px;
+    size: 16px;
+    width: 480px;
+}
+
+
+.teacher-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.teacher {
+    background-color: #fafafa;
+    vertical-align: middle;
+
+
+}
+
+.teacher-text {
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    size: 24px;
+    font-weight: bold;
+}
+
+.teacher-text2 {
+    margin-right: 50px;
+    size: 16px;
+    width: 480px;
+}
+
+.tasting-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tasting {
+    background-color: #fafafa;
+    vertical-align: middle;
+
+}
+
+.tasting-text {
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    size: 24px;
+    font-weight: bold;
+}
+
+.tasting-text2 {
+    margin-left: 100px;
+    size: 16px;
+    width: 480px;
+}
+
+
+/* course */
+
+/* news */
+
+
+.news_title_text-center {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+
+.news_title_ja_text-center {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+
+.pizza {
+    display: flex;
+    width: 960px;
+    justify-content: space-around;
+    margin-right: 120px;
+    margin-left: 120px;
+
+}
+
+.photo {
+    width: 300px;
+}
+
+.news_eyecatch {
+    width: 300px;
+    margin-right: 30px;
+
+}
+
+.button-text {
+    color: #030202;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.button-link {
+    display: block;
+    width: 300px;
+    padding: 30px 0;
+    background-color: #b7ff97;
+}
+
+.button {
+    /* align-items: center; */
+    display: flex;
+    text-align: center;
+    margin: 30px 0;
+    justify-content: center;
+
+}
+
+
+/* news */
+
+/* Access */
+.button-link,
+.Access,
+.Company-info {
+    width: 300px;
+    text-align: center;
+
+}
+
+
+
+.Access {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-left: 450px;
+}
+
+.Company-info {
+    size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+}
+
+
+.school {
+    size: 50px;
+    margin-bottom: 30px;
+}
+
+.zimu {
+    size: 50px;
+    margin-bottom: 30px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.mail {
+    margin-bottom: 60px;
+}
+
+/* Access */
+
+
+
+/* Contact */
+.contact1 {
+    text-align: center;
+}
+
+.contact2 h1 {
+    font-size: 24px;
+    color: # black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact2 h2 {
+    margin-bottom: 60px;
+}
+
+.contact2 p {
+    margin-bottom: 30px;
+}
+
+.contact2 p {
+    margin-bottom: 30px;
+}
+
+.table {
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.hyou {
+    width: 900px;
+    margin: 0 auto;
+        display: flex;
+            justify-content: center;
+    
+}
+
+.th {
+    display: table-cell;
+    text-align: -internal center;
+
+}
+
+/* Contact */
+
+/* Footer */
+/* Footer */
+.copy {
+    display: flex;
+    align-items: center;
+    /* Vertical centering */
+    justify-content: center;
+    /* Horizontal centering */
+    height: 84px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #565151;
+}
+
+
+
+/* Footer */
